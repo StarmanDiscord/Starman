@@ -25,6 +25,11 @@ if (true) {
 }
 ```
 
+## Modules used by Starman
+* [nasa-sdk](https://github.com/AJFunk/nasa-sdk)
+* [discord.js 12.5.3](https://github.com/discordjs/discord.js)
+* [request](https://github.com/request/request)
+
 ## Usage
 * Install node.js if not already installed
 * cd into the folder
