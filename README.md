@@ -2,4 +2,4 @@
 Discord Bot that uses NASA API
 
 ## Website
-(Click here)[http://starman.atwebpages.com/]
+[Click here](http://starman.atwebpages.com/)
