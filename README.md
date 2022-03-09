@@ -27,7 +27,7 @@ if (true) {
 
 ## Modules used by Starman
 * [discord.js 12.5.3](https://github.com/discordjs/discord.js) used for discord bot
-* [request](https://github.com/request/request) used for requesting web data
+* [request](https://github.com/request/request) used for requesting data
 
 ## Usage
 * Install node.js if not already installed
