@@ -26,7 +26,6 @@ if (true) {
 ```
 
 ## Modules used by Starman
-* [nasa-sdk](https://github.com/AJFunk/nasa-sdk) used for nasa api wrapper
 * [discord.js 12.5.3](https://github.com/discordjs/discord.js) used for discord bot
 * [request](https://github.com/request/request) used for requesting web data
 
