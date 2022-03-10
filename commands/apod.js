@@ -19,17 +19,33 @@ module.exports =
 
         request(url, options, (res, json) => 
         {
-            var embed = new Discord.MessageEmbed()
-            .setTitle('Astronomy Picture of the Day')
-            .setFooter("Astronomy API data pulled from " + "https://api.nasa.gov/planetary")
-            .addFields
-            (
-                { name: "Title", value: "Title " + json.body.title},
-                { name: "Date", value: "Date: " + date}
-            )
-            .setColor('BLACK');
-            message.channel.send(embed);
-            message.channel.send(json.body.url);
+            if(json.body.msg.indexOf('No data available for date') > -1) //sometimes theres no data, so we need to catch check if theres no data 
+            {
+                var embed = new Discord.MessageEmbed()
+                .setTitle('Astronomy Picture of the Day')
+                .setFooter("Astronomy API data pulled from " + "https://api.nasa.gov/planetary")
+                .addFields
+                (
+                    { name: "API message", value: "API message: " + json.body.msg},
+                    { name: "Fix", value: "Fix: " + "Please wait for NASA to update the data for todays date"}
+                )
+                .setColor('BLACK');
+                message.channel.send(embed);
+            }
+            else //continue as normal
+            {
+                var embed = new Discord.MessageEmbed()
+                .setTitle('Astronomy Picture of the Day')
+                .setFooter("Astronomy API data pulled from " + "https://api.nasa.gov/planetary")
+                .addFields
+                (
+                    { name: "Title", value: "Title: " + json.body.title},
+                    { name: "Date", value: "Date: " + date}
+                )
+                .setColor('BLACK');
+                message.channel.send(embed);
+                message.channel.send(json.body.url);
+            }
         })
     }
 }
