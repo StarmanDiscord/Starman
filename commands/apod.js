@@ -19,7 +19,7 @@ module.exports =
 
         request(url, options, (res, json) => 
         {
-            if(json.body.msg.indexOf('No data available for date') > -1) //sometimes theres no data, so we need to catch check if theres no data 
+            if( json.body.hasOwnProperty('msg')) //This catches the message from an API, could be an error due to date format or theres no image for the set date
             {
                 var embed = new Discord.MessageEmbed()
                 .setTitle('Astronomy Picture of the Day')
@@ -27,7 +27,6 @@ module.exports =
                 .addFields
                 (
                     { name: "API message", value: "API message: " + json.body.msg},
-                    { name: "Fix", value: "Fix: " + "Please wait for NASA to update the data for todays date"}
                 )
                 .setColor('BLACK');
                 message.channel.send(embed);
