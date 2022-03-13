@@ -4,14 +4,8 @@ const client = new Discord.Client();
 
 const fs = require('fs');
 
-const nasa = require("nasa-sdk");
 
 const config = require("./json/config.json");
-
-const { channel } = require('diagnostics_channel');
-const { apiKey } = require('nasa-sdk/lib/config');
-
-
 
 
 
@@ -31,7 +25,7 @@ client.on('ready', () =>
       {
         activity: 
         {
-            name: `NASA API requests`,
+            name: `API requests | ${config.prefix}help`,
             type: 'WATCHING',
             status: "DND"
         },
@@ -65,5 +59,3 @@ client.on('message', (message) =>
 })
 
 client.login(config.token);
-
-nasa.setNasaApiKey(config.nasakey);
