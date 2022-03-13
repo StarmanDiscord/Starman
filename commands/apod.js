@@ -25,7 +25,7 @@ module.exports =
         {
             message.channel.send("No date in message, using default date");
         }
-        else if (date)
+        else if (data)
         {
             url = `https://api.nasa.gov/planetary/apod?api_key=${config.nasakey}&date=${data}&concept_tags=True"`;
         }
