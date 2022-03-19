@@ -34,3 +34,7 @@ if (true) {
 * cd into the folder
 * Install packages, make sure to specify discord.js 12.5.3 
 * Execute node bot.js
+
+## Licensing 
+I believe in open source, so I made this developer friendly, here is the basics of this license
+
