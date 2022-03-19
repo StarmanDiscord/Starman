@@ -51,6 +51,7 @@ Conditions
 * ✔️Disclose source
 * ✔️Same license
 <br></br>
+
 Limitations
 * ❌Liability
 * ❌Warranty
