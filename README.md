@@ -39,7 +39,7 @@ if (true) {
 I believe in open source, so I made this developer friendly, here is the basics of this license
 <br></br>
 Permissions
- ✔️Commercial use
- ✔️Modification
- ✔️Distribution
- ✔️Private use
+* ✔️Commercial use
+* ✔️Modification
+* ✔️Distribution
+* ✔️Private use
