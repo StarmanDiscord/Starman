@@ -4,6 +4,7 @@ const client = new Discord.Client();
 
 const fs = require('fs');
 
+const figlet = require('figlet');
 
 const config = require("./json/config.json");
 
@@ -30,10 +31,16 @@ client.on('ready', () =>
             status: "DND"
         },
     });
-    console.log("");
-    console.log('Starman logged in succuessfully');
-    console.log("");
-    console.log("NASA key: " + config.nasakey);
+    console.clear();
+    figlet('Starman', function(err, data) 
+    {
+      if (err) 
+      {
+          console.dir(err);
+          return;
+      }
+      console.log(data)
+  });
 });
 
 client.on('message', (message) => 
@@ -49,7 +56,8 @@ client.on('message', (message) =>
       try 
       {
         client.commands.get(command.name).execute(message, args, client);
-      } catch (e) 
+      } 
+      catch (e) 
       {
         message.channel.send('An error occured running ' + command.name + " Error: " + e);
         console.error(`Error executing ${command.name}: \n${e}`);
