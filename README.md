@@ -39,19 +39,19 @@ if (true) {
 I believe in open source, so I made this developer friendly, here is the basics of this license
 <br></br>
 Permissions
-* ✔️Commercial use
-* ✔️Modification
-* ✔️Distribution
-* ✔️Private use
+* ✔️ Commercial use
+* ✔️ Modification
+* ✔️ Distribution
+* ✔️ Private use
 <br></br>
 
 Conditions
-* ❕License and copyright notice
-* ❕State changes
-* ❕Disclose source
-* ❕Same license
+* ❕ License and copyright notice
+* ❕ State changes
+* ❕ Disclose source
+* ❕ Same license
 <br></br>
 
 Limitations
-* ❌Liability
-* ❌Warranty
+* ❌ Liability
+* ❌ Warranty
