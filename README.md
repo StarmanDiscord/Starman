@@ -28,6 +28,7 @@ if (true) {
 ## Modules used by Starman
 * [discord.js 12.5.3](https://github.com/discordjs/discord.js) used for discord bot
 * [request](https://github.com/request/request) used for requesting data
+* [figlet](https://github.com/patorjk/figlet.js) used for ascii text
 
 ## Usage
 * Install node.js if not already installed
