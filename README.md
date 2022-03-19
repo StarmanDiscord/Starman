@@ -55,3 +55,6 @@ Conditions
 Limitations
 * ❌ Liability
 * ❌ Warranty
+<br></br>
+
+License being used is: **GNU General Public License v2.0 license**
