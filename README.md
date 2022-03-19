@@ -52,6 +52,5 @@ Conditions
 * ✔️Same license
 <br></br>
 Limitations
-* ❎Liability
-* ❎Warranty
-
+* ❌Liability
+* ❌Warranty
