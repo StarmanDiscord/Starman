@@ -43,3 +43,10 @@ Permissions
 * ✔️Modification
 * ✔️Distribution
 * ✔️Private use
+
+<br></br>
+Conditions
+* ℹ️License and copyright notice
+* ℹ️State changes
+* ℹ️Disclose source
+* ℹ️Same license
