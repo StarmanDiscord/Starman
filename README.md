@@ -43,7 +43,6 @@ Permissions
 * ✔️Modification
 * ✔️Distribution
 * ✔️Private use
-
 <br></br>
 Conditions
 * ✔️License and copyright notice
