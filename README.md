@@ -46,10 +46,10 @@ Permissions
 <br></br>
 
 Conditions
-* ✔️License and copyright notice
-* ✔️State changes
-* ✔️Disclose source
-* ✔️Same license
+* ❕License and copyright notice
+* ❕State changes
+* ❕Disclose source
+* ❕Same license
 <br></br>
 
 Limitations
