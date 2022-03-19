@@ -44,6 +44,7 @@ Permissions
 * ✔️Distribution
 * ✔️Private use
 <br></br>
+
 Conditions
 * ✔️License and copyright notice
 * ✔️State changes
