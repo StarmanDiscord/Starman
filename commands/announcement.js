@@ -11,7 +11,7 @@ module.exports =
         var server = message.guild.id;
         if (server = "937433589820309558")
         {
-            if (message.author.id ==config.owner)
+            if (message.author.id == config.owner)
             {
                 let user = message.member.displayName
                 let sentence = message.content.split(" ");
